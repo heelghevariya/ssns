@@ -19,7 +19,7 @@ break;
 
 int main(void){
 if (!device_is_ready(uart_dev)) {
-printk("uart_dev not ready\n");
+printk("uart_dev nfvdvdvddvdvddvdot ready\n");
 return;
 }
 uart_callback_set(uart_dev, uart1_cb, NULL);
